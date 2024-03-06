@@ -1,0 +1,10 @@
+prolothar-common>=6.1.0
+xmltodict==0.13.0
+optapy==9.37.0b0
+nqueens==1.0.4
+py-sudoku==1.0.3
+methodtools==0.4.5
+python-sat==1.8.dev3
+graycode==1.0.5
+dataframe-image==0.2.3
+calendar-view==2.4.1
