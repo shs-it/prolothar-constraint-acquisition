@@ -25,6 +25,15 @@ cython :
 clean :
 	python setup.py clean --all
 
+package :
+	python -m build
+
+clean_package :
+	rm -R dist build prolothar_rule_mining.egg-info
+
+publish :
+	twine upload --skip-existing --verbose dist/*
+
 test :
 	python -m coverage erase
 	python -m coverage run --branch --source=./prolothar_ca -m unittest discover -v

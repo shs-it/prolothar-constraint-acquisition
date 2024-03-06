@@ -112,8 +112,6 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.11",
-        "Topic :: Process Mining",
-        "Topic :: Constraint Acquisition"
     ],
     packages=["prolothar_ca"],
     include_package_data=True,

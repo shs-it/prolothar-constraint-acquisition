@@ -174,6 +174,13 @@ make test
 make clean_package || make package && make publish
 ```
 
+You should also create a tag for the current version
+
+```bash
+git tag -a [version] -m "describe what has changed"
+git push --tags
+```
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning.

@@ -6,3 +6,4 @@ hypothesis
 pylint
 scipy
 wheel
+build
