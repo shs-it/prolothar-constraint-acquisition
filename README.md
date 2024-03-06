@@ -13,7 +13,7 @@ Python 3.11+
 
 ## Usage
 
-See prolothar_tests/prolothar_ca/ca/methods/custon/test_urpils.py for some simple examples.
+See prolothar_tests/prolothar_ca/ca/methods/custom/test_urpils.py for some simple examples.
 
 If you want to run the algorithms on your own data, follow the steps below.
 
